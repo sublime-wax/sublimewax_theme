@@ -11,11 +11,11 @@ import SEO from '../components/SEO';
 export default function Index({ posts, globalData }) {
   return (
     <Layout>
-      <SEO title="SublimeWax" description={globalData.blogTitle} />
+      <SEO title="SublimeWax votre boutique de tenue africaine" description={globalData.blogTitle} />
       <Header name="SublimeWax" />
       <main className="w-full">
         <h1 className="text-3xl lg:text-5xl text-center mb-12">
-          {globalData.blogTitle}
+          Votre boutique de tenue africaine en ligne
         </h1>
         <ul className="w-full">
           {posts.map((post) => (
